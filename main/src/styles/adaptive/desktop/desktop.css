@@ -1,0 +1,57 @@
+@media only screen and (max-width: 1366px) {
+    /*------Header------*/
+    header {
+        margin: 1.5% 0 0 0;
+    }
+    .logo {
+        width: 25%;
+    }
+    .slider.round:before {
+        height: 18px;
+        width: 18px;
+        left: 5px;
+    }
+    .switch {
+        width: 55px;
+        height: 25px;
+    }
+    /*------Intro------*/
+    .intro {
+        margin: 4% 0 0 0;
+    }
+    .cocoen__box {
+        width: 60%;
+    }
+    /*------Services------*/
+    .list {
+        top: 109%;
+    }
+    /*------Font-sizes------*/
+    .nav__link {
+        font-size: calc(11px + 11* ((100vw - 767px) / (1920 - 767)));
+    }
+    .toggle span {
+        font-size: calc(7px + 7* ((100vw - 767px) / (1920 - 767)));
+    }
+    h2 {
+        font-size: calc(55px + 55 * ((100vw - 767px) / (1920 - 767)));
+    }
+    .about__text-box p {
+        font-size: calc(11px + 11 * ((100vw - 767px) / (1920 - 767)));
+    }
+    h3 {
+        font-size: calc(17px + 17 * ((100vw - 767px) / (1920 - 767)));
+    }
+    h4 {
+        font-size: calc(14px + 14 * ((100vw - 767px) / (1920 - 767)));
+    }
+    .info-line a {
+        font-size: calc(10px + 10 * ((100vw - 767px) / (1920 - 767)));
+    }
+    .info-line span {
+        font-size: calc(10px + 10 * ((100vw - 767px) / (1920 - 767)));
+    }
+    h6 {
+        font-size: calc(13px + 13 * ((100vw - 767px) / (1920 - 767)));
+    }
+}

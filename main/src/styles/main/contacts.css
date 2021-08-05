@@ -1,0 +1,73 @@
+.contacts {
+    background: #070707;
+    padding: 3% 0;
+}
+
+.card {
+    margin: 3% 0 0 0;
+}
+
+.card-box {
+    display: flex;
+    justify-content: center;
+}
+
+.info__side {
+    background: #fcb50b;
+    display: flex;
+    align-items: center;
+    padding: 0 1%;
+    border-radius: 10px 0 0 10px;
+}
+
+.info-line {
+    display: flex;
+    flex-direction: column;
+    margin: 9% 0;
+}
+
+.contacts__mobile-icon {
+    display: none;
+}
+
+.info-line a {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    color: #fff;
+    font-size: calc(8px + 8 * ((100vw - 767px) / (1920 - 767)));
+}
+
+.info-line span {
+    margin: 4.5% 0 0 0;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    color: #fff;
+    font-size: calc(8px + 8 * ((100vw - 767px) / (1920 - 767)));
+}
+.ph a {
+    margin: 4.5% 0 0 0;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.line-soc {
+    display: flex;
+    align-items: center;
+    margin: 2.5% 0 0 0;
+}
+
+.line-soc img {
+    margin: 0 3% 0 0;
+}
+
+.map__side {
+    border: 1px solid #fcb50b;
+    border-radius: 0 10px 10px 0;
+    overflow: hidden;
+    width: 40%;
+}
+
+.map{
+    height: 100%;
+    width: 100%;
+}

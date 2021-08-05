@@ -1,0 +1,9 @@
+.sponsors {
+    background: #070707;
+    padding: 3% 0;
+}
+
+.sponsors__wrapper {
+    display: flex;
+    justify-content: center;
+}

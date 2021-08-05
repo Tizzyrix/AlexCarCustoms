@@ -1,0 +1,73 @@
+body {
+    background: linear-gradient(to right, #fcb50b 50%, #070707 50%);
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    color: #fff;
+    font-size: calc(45px + 65 * ((100vw - 767px) / (1920 - 767)));
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: calc(45px + 45 * ((100vw - 767px) / (1920 - 767)));
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: calc(15px + 15 * ((100vw - 767px) / (1920 - 767)));
+    text-align: center;
+    margin: 0 0 3% 0;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #070707;
+    font-size: calc(12px + 12 * ((100vw - 767px) / (1920 - 767)));
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: calc(29px + 45 * ((100vw - 767px) / (1920 - 767)));
+}
+
+h6 {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 400;
+    color: #fff;
+    font-size: calc(9px + 9 * ((100vw - 767px) / (1920 - 767)));
+}
+
+/*--------------*/
+
+/*.cocoen__box #drag {*/
+/*    height: 75%!important;*/
+/*    top: 12%!important;*/
+/*}*/
+
+/*.cocoen__box #drag:before {*/
+/*    border-radius: 10px !important;*/
+/*    border: 2px solid #fff !important;*/
+/*}*/
+
+.cocoen__box {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,24 @@
+footer {
+    background: #070707;
+}
+
+footer:before {
+    content: '';
+    width: 75%;
+    height: 2px;
+    background: #3d3d3d;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.footer__wrapper {
+    display: flex;
+    padding: 2% 0 1.5% 0;
+    position: relative;
+}
+
+.email {
+    width: 100%;
+    text-align: center;
+}

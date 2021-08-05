@@ -1,0 +1,141 @@
+.services {
+    transition: .7s ease-out all;
+    margin: 2.5% 0 0 0;
+    padding: 0 0 3% 0;
+}
+
+.servicesActive {
+    padding: 0 0 25% 0;
+}
+
+.services__wrapper {
+    position: relative;
+}
+
+.columns {
+    display: flex;
+    flex: 0 1 33.333%;
+    padding: 0 5%;
+}
+
+.columns__item {
+    width: 100%;
+    transition: .7s ease-out all;
+}
+
+.columns__itemActive {
+    padding: 0 0 35% 0;
+}
+
+.item__box {
+    height: 18vw;
+}
+
+.item__box-hover {
+    width: 5%;
+    height: 100%;
+    background: rgba(252, 181, 11, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .6s ease-out all;
+}
+
+.item__box-hover span {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 600;
+    color: #000;
+    font-size: calc(13px + 13 * ((100vw - 767px) / (1920 - 767)));
+    cursor: pointer;
+}
+
+.item__box-hover span:hover {
+    color: #fff;
+}
+
+.item__box:nth-child(2) {
+    margin: 0 10%;
+}
+
+.item__box span {
+    opacity: 0;
+    transition: .8s ease-out all;
+}
+
+.bd .item__box {
+    background: url("../../img/backgrounds/body.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.int .item__box {
+    background: url("../../img/backgrounds/interior.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.wh .item__box {
+    background: url("../../img/backgrounds/wheels.png") center no-repeat;
+    background-size: cover;
+}
+
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    top: 120%;
+    left: -150%;
+    opacity: 0;
+    transition: .5s ease-out all;
+}
+
+.bdl {
+    top: 112%;
+}
+
+.listActive {
+    left: 0;
+    opacity: 1;
+}
+
+.list__closeBtn {
+    width: 8%;
+    cursor: pointer;
+    margin: 0 4% 0 0;
+    transition: .3s ease-in-out all;
+}
+
+.list__closeBtn:hover {
+    transform: scale(1.2);
+}
+
+.list__closeBtn img {
+    width: 100%;
+}
+
+.list__text {
+    display: flex;
+    flex-direction: column;
+    margin: 0 6% 0 0;
+}
+
+.list__text span {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    color: #fff;
+    font-size: calc(12px + 12 * ((100vw - 767px) / (1920 - 767)));
+    margin: 3.5% 0;
+}
+
+.list__img {
+    width: 40%;
+}
+
+.list__img-box {
+    width: 100%;
+}
+
+.list__img-box img {
+    width: 100%;
+}

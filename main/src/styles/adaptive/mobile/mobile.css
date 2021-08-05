@@ -1,0 +1,322 @@
+@media only screen and (max-width: 768px) {
+
+    /*------Header------*/
+
+    header {
+        margin: 1% 0 0 0;
+    }
+    nav {
+        display: none;
+    }
+    .logo {
+        width: 40%;
+    }
+
+    .toggle {
+        left: 85%;
+    }
+
+    /*------Burger------*/
+
+    #burger {
+        display: block;
+    }
+
+    /*------Intro------*/
+
+    .cocoen__box {
+        width: 85%;
+    }
+    .intro {
+        margin: 4% 0 0 0;
+    }
+    .intro__title {
+        top: 9%;
+        left: 36%;
+    }
+
+    /*------About------*/
+
+    .about__content {
+        flex-direction: column;
+    }
+    .about__text {
+        width: 100%;
+    }
+    .about__img {
+        width: 70%;
+    }
+    .about__img-box {
+        width: 100%;
+    }
+    .about__text-box {
+        width: 100%;
+    }
+
+    /*------Services------*/
+
+    .columns {
+        flex-direction: column;
+        align-items: center;
+    }
+    .columns__item {
+        width: 100%;
+        margin: 4% 0;
+    }
+    .item__box {
+        height: 40vw;
+    }
+
+    .list {
+    }
+    .list__text span {
+        text-align: center;
+    }
+
+    .list__img {
+        width: 90%;
+    }
+    .list__text {
+        margin: 0;
+    }
+    .list__closeBtn {
+        width: 20%;
+    }
+
+    .bdl {
+        top: 28.5%;
+    }
+
+    .intl {
+        top: 59%;
+    }
+
+    .whl {
+        top: 87%;
+    }
+
+    /*------Contacts------*/
+
+    .card-box {
+        flex-direction: column;
+    }
+    .info__side {
+        border-radius: 10px 10px 10px 10px;
+        width: 80%;
+        justify-content: center;
+        margin: 5% auto;
+    }
+
+    .info-line {
+        flex-direction: row;
+        align-items: center;
+        margin: 5% 0;
+    }
+    .info-line span {
+        margin: 0;
+    }
+    .info-line a {
+        margin: 0;
+    }
+    h4 {
+        display: none;
+    }
+    .line-soc img {
+        width: 25px;
+        height: 25px;
+    }
+    .lng-contacts-schedule1 {
+        margin: 0 7% 0 0!important;
+    }
+    .contacts__mobile-icon {
+        display: block;
+        width: 25px;
+        height: 25px;
+        margin: 0 5% 0 0;
+    }
+    .map__side {
+        width: 90%;
+        margin: 0 auto;
+        border-radius: 0;
+        border: none;
+    }
+    .map {
+        height: 45vw;
+        width: 77vw;
+    }
+    .splide {
+        max-width: 50vw!important;
+    }
+
+    /*------Footer------*/
+
+    .footer__wrapper {
+        padding: 4% 0 3.5% 0;
+    }
+
+    /*---font-sizes---*/
+
+    h1 {
+        font-size: calc(60px + 60 * ((100vw - 767px) / (1920 - 767)));
+    }
+    h2 {
+        font-size: calc(65px + 65 * ((100vw - 767px) / (1920 - 767)));
+    }
+    h3 {
+        font-size: calc(30px + 30 * ((100vw - 767px) / (1920 - 767)));
+    }
+    h6 {
+        font-size: calc(17px + 17 * ((100vw - 767px) / (1920 - 767)));
+    }
+    .toggle span {
+        font-size: calc(11px + 11* ((100vw - 767px) / (1920 - 767)));
+    }
+    .about__text-box p {
+        font-size: calc(14px + 14 * ((100vw - 767px) / (1920 - 767)));
+    }
+    .about__text-box a {
+        font-size: calc(14px + 14 * ((100vw - 767px) / (1920 - 767)));
+    }
+    .about__img span {
+        font-size: calc(41px + 41 * ((100vw - 767px) / (1920 - 767)));
+        top: 0;
+        left: 63%;
+    }
+    .info-line span {
+        font-size: calc(15px + 15 * ((100vw - 767px) / (1920 - 767)));
+    }
+    .info-line a {
+        font-size: calc(15px + 15 * ((100vw - 767px) / (1920 - 767)));
+    }
+    .item__box-hover span {
+        font-size: calc(20px + 20 * ((100vw - 767px) / (1920 - 767)));
+    }
+    .list__text span {
+        font-size: calc(15px + 15 * ((100vw - 767px) / (1920 - 767)));
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    h1 {
+        font-size: calc(58px + 58 * ((100vw - 767px) / (1920 - 767)));
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /*------Header------*/
+    header {
+        margin: 2% 0 0 0;
+    }
+    .logo {
+        width: 45%;
+    }
+    /*------Intro------*/
+    .intro {
+        margin: 7% 0 0 0;
+    }
+    .intro__title {
+        left: 34%;
+    }
+    .cocoen__box {
+        width: 100%;
+    }
+    /*------Services------*/
+    .columns__itemActive {
+        padding: 0 0 45% 0;
+    }
+    .bdl {
+        top: 27.5%;
+    }
+    .intl {
+        top: 58%;
+    }
+    .whl {
+        top: 86%;
+    }
+    /*------Contacts------*/
+    .line-soc img {
+        width: 20px;
+        height: 20px;
+    }
+    /*------Font-sizes------*/
+    h1 {
+        font-size: calc(55px + 55 * ((100vw - 767px) / (1920 - 767)));
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    /*------Header------*/
+    .toggle {
+        left: 82%;
+    }
+    .switch {
+        width: 45px;
+        height: 20px;
+    }
+    .slider.round:before {
+        height: 14px;
+        width: 14px;
+        bottom: 3px;
+        left: 3px;
+    }
+    /*------Services------*/
+    .columns__itemActive {
+        padding: 0 0 55% 0;
+    }
+    .bdl {
+        top: 27.5%;
+    }
+    .intl {
+        top: 56%;
+    }
+    .whl {
+        top: 85%;
+    }
+    /*------Font-sizes------*/
+    .toggle span {
+        font-size: calc(10px + 10* ((100vw - 767px) / (1920 - 767)));
+    }
+    h1 {
+        font-size: calc(50px + 50 * ((100vw - 767px) / (1920 - 767)));
+    }
+    .about__img span {
+        font-size: calc(38px + 38 * ((100vw - 767px) / (1920 - 767)));
+        top: -4%;
+        left: 59%;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    /*------Intro------*/
+    .intro__title {
+        left: 33%;
+    }
+    /*------About------*/
+    .about__img span {
+        left: 57%;
+    }
+    /*------Services------*/
+    .columns__itemActive {
+        padding: 0 0 65% 0;
+    }
+    .bdl {
+        top: 26.5%;
+    }
+    .intl {
+        top: 55%;
+    }
+    .whl {
+        top: 84%;
+    }
+    /*------Contacts------*/
+
+    .info__side {
+        width: 90%;
+    }
+    /*------Font-sizes------*/
+    h1 {
+        font-size: calc(48px + 48 * ((100vw - 767px) / (1920 - 767)));
+    }
+}

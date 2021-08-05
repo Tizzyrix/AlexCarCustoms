@@ -1,0 +1,83 @@
+.about {
+    background: url("../../img/backgrounds/about.jpg") center no-repeat fixed;
+    background-size: cover;
+    padding: 3% 0 0 0;
+}
+
+.about__wrapper:after {
+    content: '';
+    width: 75%;
+    height: 2px;
+    background: rgba(252, 181, 11, .7);
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.about__content {
+    display: flex;
+    align-items: center;
+    margin: 0 0 2.5% 0;
+}
+
+.about__text {
+    width: 50%;
+}
+
+.about__text-box {
+    width: 80%;
+}
+
+.about__text p {
+    margin: 3% 0;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 300;
+    color: #fff;
+    font-size: calc(9px + 9 * ((100vw - 767px) / (1920 - 767)));
+    line-height: 130%;
+}
+
+.about__text a {
+    color: #fcb50b;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 300;
+    font-size: calc(10px + 10 * ((100vw - 767px) / (1920 - 767)));
+    text-decoration: underline;
+
+}
+
+.about__img {
+    width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.about__img span {
+    position: absolute;
+    top: 2%;
+    left: 60%;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: calc(30px + 30 * ((100vw - 767px) / (1920 - 767)));
+
+    background: url(../../img/backgrounds/textbg.jpg) no-repeat center transparent fixed;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.about__img-box {
+    width: 80%;
+    position: relative;
+}
+
+.about__img-box img {
+    width: 100%;
+}
+
+.splide {
+    border-radius: 5px;
+    overflow: hidden;
+}
